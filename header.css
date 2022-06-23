@@ -1,0 +1,33 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  flex: 1;
+  margin: 0px 0px 0px 89px;
+  position: fixed;
+  top: 0px;
+  gap: 385px;
+  z-index: 1;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
+  gap: 80px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16.94px;
+}
+
+.logo > img {
+  width: 187px;
+}
+
+.nav-bar > div > img {
+  width: 24px;
+}
