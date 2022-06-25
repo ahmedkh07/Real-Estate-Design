@@ -1,0 +1,95 @@
+.button-tool {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffff;
+  border-radius: 5px 0px 0px 0px;
+  background-color: #ffffff;
+  width: 281px;
+  height: 49px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.button-tool > div:hover {
+  background-color: #d3d3d3;
+}
+
+.button-tool > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+}
+
+.button-tool > .active {
+  background-color: #d3d3d3;
+}
+
+.info-tool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ffffff;
+  width: 1073px;
+  height: 161px;
+  background-color: #ffffff;
+  box-shadow: 0px 10px 50px 0px #0000001a;
+}
+
+.info-tool-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #d2d3ce;
+  padding: 17px 0px;
+}
+
+.info-tool-box-texts {
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  gap: 17px;
+}
+
+.info-tool-box-value {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+  color: #bab9b9;
+}
+
+.borderless {
+  border: none;
+}
+
+.parent-box {
+  position: absolute;
+  bottom: -80px;
+  left: 170px;
+}
+
+.parent-box-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 180px;
+  height: 60px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  background-color: #444444;
+  gap: 16px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24.2px;
+  color: #ffffff;
+  margin-right: 33px;
+}
