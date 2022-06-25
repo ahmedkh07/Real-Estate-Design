@@ -35,6 +35,11 @@
   width: 24px;
 }
 
+.star-icon {
+  display: flex;
+  align-items: center;
+}
+
 .star-icon > img {
   width: 27px;
 }
