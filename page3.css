@@ -1,0 +1,97 @@
+.page3 {
+  background-image: url(images/page3-background.png);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  padding: 93px 0px 161px 178px;
+  gap: 33px;
+  position: relative;
+}
+
+.page3-leftside {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.page3-left-title {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.page3-left-pic > img {
+  width: 583px;
+}
+
+.page3-rightside {
+  display: flex;
+  flex-direction: column;
+}
+
+.page3-right-pic > img {
+  width: 540px;
+}
+
+.page3-right-description {
+  width: 567px;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.5px;
+  color: #a0a0a0;
+}
+
+.page3-absolute-box1 {
+  position: absolute;
+  top: 834px;
+  left: 136px;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+  width: 341px;
+  height: 261px;
+  padding: 43px 0px 0px 24px;
+}
+
+.page3-absolute-box2 {
+  position: absolute;
+  top: 895px;
+  left: 530px;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+  width: 341px;
+  height: 261px;
+  padding: 43px 0px 0px 24px;
+}
+
+.page3-absolute-box3 {
+  position: absolute;
+  top: 955px;
+  left: 924px;
+  background-color: #ffffff;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+  width: 341px;
+  height: 261px;
+  padding: 43px 0px 0px 24px;
+}
+
+.box-icon > img {
+  width: 48px;
+  background-color: #33374e;
+}
+
+.box-title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 36.31px;
+}
+
+.box-description {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27.5px;
+  color: #a0a0a0;
+}
