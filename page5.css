@@ -1,0 +1,23 @@
+.page5-header {
+  display: flex;
+  justify-content: space-around;
+}
+
+.page5-header-content-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.title-content {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 64.75px;
+}
+
+.content {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 19.9px;
+  color: #b0b0b0;
+}
